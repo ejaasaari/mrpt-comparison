@@ -1,0 +1,11 @@
+--- ann/lib/Make-config	2016-07-23 20:40:04.629336980 +0300
++++ ann/lib/Make-config.new	2016-07-23 20:41:34.539342593 +0300
+@@ -72,7 +72,7 @@
+ 	$(MAKE) targets \
+ 	"ANNLIB = libANN.a" \
+ 	"C++ = g++" \
+-	"CFLAGS = -O3" \
++	"CFLAGS = -O3 -march=native -ffast-math -DNDEBUG" \
+ 	"MAKELIB = ar ruv" \
+ 	"RANLIB = true"
+ 

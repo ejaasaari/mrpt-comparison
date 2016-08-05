@@ -1,0 +1,13 @@
+--- ann/lib/include/ANN/ANN.h	2010-01-27 23:40:02.000000000 +0200
++++ ann/lib/include/ANN/ANN.h.new	2016-07-23 20:45:59.019359106 +0300
+@@ -155,8 +155,8 @@
+ //		not occur in distance calculation.
+ //----------------------------------------------------------------------
+ 
+-typedef double	ANNcoord;				// coordinate data type
+-typedef double	ANNdist;				// distance data type
++typedef float	ANNcoord;				// coordinate data type
++typedef float	ANNdist;				// distance data type
+ 
+ //----------------------------------------------------------------------
+ //	ANNidx

@@ -1,0 +1,26 @@
+--- flann-build/CMakeLists.txt	2016-07-24 01:49:37.107163350 +0300
++++ flann-build/CMakeLists.txt.new	2016-07-24 01:49:16.963828759 +0300
+@@ -37,10 +37,12 @@
+ #  MinSizeRel     : w/o debug symbols, w/ optimization, stripped binaries
+ 
+ if (NOT CMAKE_BUILD_TYPE)
+-    #set(CMAKE_BUILD_TYPE Release)
+-    set(CMAKE_BUILD_TYPE RelWithDebInfo CACHE STRING "Build type" FORCE)
++    set(CMAKE_BUILD_TYPE Release)
++    ##set(CMAKE_BUILD_TYPE RelWithDebInfo CACHE STRING "Build type" FORCE)
+     #set(CMAKE_BUILD_TYPE Debug)
+ endif()
++set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O3 -march=native -ffast-math -DNDEBUG")
++set(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -O3 -march=native -ffast-math -DNDEBUG")
+ 
+ #set the default path for built executables to the "bin" directory
+ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
+@@ -53,7 +55,7 @@
+ option(BUILD_PYTHON_BINDINGS "Build Python bindings" ON)
+ option(BUILD_MATLAB_BINDINGS "Build Matlab bindings" ON)
+ option(BUILD_CUDA_LIB "Build CUDA library" OFF)
+-option(BUILD_EXAMPLES "Build examples" ON)
++option(BUILD_EXAMPLES "Build examples" OFF)
+ option(BUILD_TESTS "Build tests" ON)
+ option(BUILD_DOC "Build documentation" ON)
+ option(USE_OPENMP "Use OpenMP multi-threading" ON)
