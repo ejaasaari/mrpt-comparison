@@ -1,4 +1,4 @@
-# mrpt-benchmark
+# mrpt-comparison
 
 ### Install
 ```
@@ -8,5 +8,5 @@
 
 ### Run
 ```
-./mnist.sh
+./comparison.sh mnist
 ```
