@@ -4,7 +4,7 @@
 
 MRPT (Multiple Random Projection Trees) is an algorithm for approximate nearest neighbor search in high dimensions. The method is based on combining multiple sparse random projection trees using a novel voting scheme where the final search is focused to points occurring in candidate sets retrieved by multiple trees. MRPT is a result of research conducted at the Helsinki Institute for Information Technology (HIIT).
 
-This project contains a performance comparison between MRPT and other state-of-the-art libraries for approximate nearest neighbor search. We focus mainly on high-dimensional real-world data sets. The performance of the algorithms is measured in terms of query time and recall, that is, the fraction of true nearest neighbors returned.
+This project contains a performance comparison between MRPT and other state-of-the-art libraries for approximate nearest neighbor search. We focus mainly on high-dimensional real-world data sets. The performance of the algorithms is measured in terms of query time and recall, that is, the fraction of true nearest neighbors returned. All of the experiments were performed on a single computer with two Intel Xeon E5540 2.53GHz CPUs and 32GB of RAM. No parallelization was used in any of the experiments.
 
 ## Included libraries and data sets
 
@@ -32,7 +32,7 @@ For each data set, we use a disjoint random sample of 100 points as the test que
 ## Parameters
 
 For the most important tuning parameters (as stated by the authors), we used grid search on the appropriate ranges to
-find the optimal parameter combinations in experiment, or the default values whenever provided by the authors. **The exact parameters for each data set can be found in the [parameters](https://github.com/ejaasaari/mrpt-comparison/tree/master/parameters) folder**.
+find the optimal parameter combinations in the experiment, or the default values whenever provided by the authors. **The exact parameters for each data set can be found in the [parameters](https://github.com/ejaasaari/mrpt-comparison/tree/master/parameters) folder**. Note that while in some cases the performance could possibly be improved by increasing the memory consumption or index building time, the parameters are chosen such that these were feasible on the test system. This applies to our method as well.
 
 The performance of MRPT is controlled by the number of trees, the depth of the trees and the vote limit. For ANN, we
 vary the error bound, and for FLANN, we control the accuracy primarily by tuning the maximum number of leafs
