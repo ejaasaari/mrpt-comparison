@@ -258,9 +258,8 @@ class Mrpt {
     * Builds a random sparse matrix for use in random projection. The components of
     * the matrix are drawn from the distribution
     *
-    * -1  w.p. 1 / 2s
-    *  0  w.p. 1 - 1 / s
-    * +1  w.p. 1 / 2s
+    *       0  w.p. 1 - 1 / s
+    * N(0, 1)  w.p. 1 / s
     *
     * where s = 1 / density.
     */
