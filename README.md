@@ -31,7 +31,7 @@ For each data set, we use a disjoint random sample of 100 points as the test que
 
 ## Parameters
 
-For the most important tuning parameters (as stated by the authors), we used grid search on the appropriate ranges to
+For the most important tuning parameters (as stated by the authors), we use grid search on the appropriate ranges to
 find the optimal parameter combinations in the experiment, or the default values whenever provided by the authors. **The exact parameters for each data set can be found in the [parameters](https://github.com/ejaasaari/mrpt-comparison/tree/master/parameters) folder**. Note that while in some cases the performance could possibly be improved by increasing the memory consumption or index building time, the parameters are chosen such that these were feasible on the test system. This applies to our method as well.
 
 The performance of MRPT is controlled by the number of trees, the depth of the trees and the vote limit. For ANN, we
