@@ -1,3 +1,5 @@
+These interactive plot can be used to explore the optimal parameters by hovering the points. If the parameters do not show on hover, it is advisable to try on a different browser.
+
 | MNIST, K=1 | MNIST, K=10 | MNIST, K=100 |
 | --- | --- | --- |
 <a href="https://cs.helsinki.fi/u/ejaasaar/mrpt/results/mnist/Plot_1.html"><img src="https://raw.githubusercontent.com/ejaasaari/mrpt-comparison/master/images/mnist_1.png" width=256></a> | <a href="https://cs.helsinki.fi/u/ejaasaar/mrpt/results/mnist/Plot_10.html"><img src="https://raw.githubusercontent.com/ejaasaari/mrpt-comparison/master/images/mnist_10.png" width=256></a> | <a href="https://cs.helsinki.fi/u/ejaasaar/mrpt/results/mnist/Plot_100.html"><img src="https://raw.githubusercontent.com/ejaasaari/mrpt-comparison/master/images/mnist_100.png" width=256></a> |
