@@ -42,21 +42,23 @@ each node. For FALCONN, we search for the optimal number of hash tables and hash
 
 ## Results
 
-(Click on the images to enlarge)
+Results for k = 1, 10 and 100 (click on the images to enlarge):
 
 | k = 1 | k = 10 | k = 100 |
 | ----- | ------ | ------- |
-| <img src="https://raw.githubusercontent.com/ejaasaari/mrpt-comparison/master/results/1_small.png" width=256> | <img src="https://raw.githubusercontent.com/ejaasaari/mrpt-comparison/master/results/10_small.png" width=256> | <img src="https://raw.githubusercontent.com/ejaasaari/mrpt-comparison/master/results/100_small.png" width=256> |
+| <a href="https://raw.githubusercontent.com/ejaasaari/mrpt-comparison/master/results/1.png"><img src="https://raw.githubusercontent.com/ejaasaari/mrpt-comparison/master/results/1_small.png" width=256></a> | <a href="https://raw.githubusercontent.com/ejaasaari/mrpt-comparison/master/results/10.png"><img src="https://raw.githubusercontent.com/ejaasaari/mrpt-comparison/master/results/10_small.png" width=256> | <a href="https://raw.githubusercontent.com/ejaasaari/mrpt-comparison/master/results/100.png"><img src="https://raw.githubusercontent.com/ejaasaari/mrpt-comparison/master/results/100_small.png" width=256> |
+
+**In addition, we include [interactive plots](https://github.com/ejaasaari/mrpt-comparison/blob/master/results/interactive.md) to explore the optimal parameters and [tables](https://github.com/ejaasaari/mrpt-comparison/blob/master/results/tables) that summarize the results**.
 
 ## Running the comparison
 
-To compile the algorithms and download the data sets, run:
+The algorithms and data sets can be downloaded by running:
 ```
 ./get_algos.sh
 ./get_data.sh
 ```
 
-The comparisons can then be run individually for data sets, e.g.:
+The comparisons can then be run individually for the data sets, for example:
 ```
 ./comparison.sh mnist
 ```
