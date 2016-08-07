@@ -46,7 +46,7 @@ each node. For FALCONN, we search for the optimal number of hash tables and hash
 
 | k = 1 | k = 10 | k = 100 |
 | ----- | ------ | ------- |
-| <img src="https://raw.githubusercontent.com/ejaasaari/mrpt-comparison/master/results/1_small.png" width=256> | <img src="https://raw.githubusercontent.com/ejaasaari/mrpt-comparison/master/results/10_small.png" width=256> | <img src="https://raw.githubusercontent.com/ejaasaari/mrpt-comparison/master/results/100_small.png" width=256> |
+| <a href="https://raw.githubusercontent.com/ejaasaari/mrpt-comparison/master/results/1.png"><img src="https://raw.githubusercontent.com/ejaasaari/mrpt-comparison/master/results/1_small.png" width=256></a> | <img src="https://raw.githubusercontent.com/ejaasaari/mrpt-comparison/master/results/10_small.png" width=256> | <img src="https://raw.githubusercontent.com/ejaasaari/mrpt-comparison/master/results/100_small.png" width=256> |
 
 ## Running the comparison
 
