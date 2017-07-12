@@ -2,7 +2,7 @@
 
 ## Introduction
 
-[MRPT](https://github.com/teemupitkanen/mrpt/tree/windows) (Multiple Random Projection Trees) is an algorithm for approximate nearest neighbor search in high dimensions. The method is based on combining multiple sparse random projection trees using a novel voting scheme where the final search is focused to points occurring in candidate sets retrieved by multiple trees. MRPT is a result of research conducted at the Helsinki Institute for Information Technology (HIIT).
+[MRPT](https://github.com/teemupitkanen/mrpt/) (Multiple Random Projection Trees) is an algorithm for approximate nearest neighbor search in high dimensions. The method is based on combining multiple sparse random projection trees using a novel voting scheme where the final search is focused to points occurring in candidate sets retrieved by multiple trees. MRPT is a result of research conducted at the Helsinki Institute for Information Technology (HIIT).
 
 This project contains a performance comparison between MRPT and other state-of-the-art libraries for approximate nearest neighbor search. We focus on high-dimensional real-world data sets. The performance of the algorithms is measured in terms of query time and recall, that is, the fraction of true nearest neighbors returned. All of the experiments were performed on a system with two Intel Xeon E5540 2.53GHz CPUs and 32GB of RAM. No parallelization was used in any of the experiments.
 
