@@ -10,7 +10,7 @@ The MRPT algorithm is described in detail in the paper
 
 _Hyvönen, V., Pitkänen, T., Tasoulis, S., Jääsaari, E., Tuomainen, R., Wang, L., Corander, J. & Roos, T. (2016, December). [Fast nearest neighbor search through sparse random projections and voting](https://www.cs.helsinki.fi/u/ttonteri/pub/bigdata2016.pdf). In Big Data (Big Data), 2016 IEEE International Conference on (pp. 881-888). IEEE_
 
-**Note that this repository only contains the version of MRPT used for the experiments in the above paper. An updated version with Python bindings is available [here](https://github.com/teemupitkanen/mrpt/).**
+**Note that this repository only contains the version of MRPT used for the experiments in the above paper. An updated version with Python bindings and Windows support is available [here](https://github.com/teemupitkanen/mrpt/).**
 
 ## Included libraries and data sets
 
