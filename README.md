@@ -71,4 +71,4 @@ The comparisons can then be run individually for the data sets, for example:
 
 ## Questions
 
-ejaasaar at cs.helsinki.fi
+elias.jaasaari at gmail.com
